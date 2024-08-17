@@ -1,8 +1,9 @@
 *{
-    font-family: "Outfit", sans-serif;
+    font-family: "Poppins", sans-serif;
+
 }
 header{
-    background-color: #173B45;
+    background-color: #ad5c70;
 }
 header span{
     color: #F8EDED;
@@ -15,10 +16,10 @@ header span{
     color: #F8EDED;
 }
 .nav-item a:hover{
-    color: #FF8225;
+    color: #b9c3c4;
 }
 #nav-button{
-    background-color: #FF8225;
+    background-color: #b9c3c4;
 }
 
 #carta{
@@ -41,11 +42,49 @@ header span{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 110%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad según sea necesario */
-    z-index: 1; /* Ponerlo debajo del contenido */
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
 }
+
+#imagen-pro{
+    padding: 0;
+    border-radius: 15px;
+    margin: 0px 10px 0px 1%;
+    max-width: 400px;
+
+}
+
+#imagen-pro:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.589); /* Sombra más pronunciada al hacer hover */
+}
+
+
+.typewriter-text {
+    font-weight: bold;
+    overflow: hidden;
+    border-right: .10em solid black; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .15em; 
+    animation: typing 5s steps(40, end) 3s 1 normal both, blink-caret 0.95s step-end infinite;  
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 70%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+}
+
+
+
 
 .content {
     position: relative;
@@ -53,4 +92,10 @@ header span{
     color: white; /* Ajustar el color del texto */
 }
 
+footer{
+    background-color: #ad5c70;
+}
 
+body{
+    background-color: #edd4be;
+}
